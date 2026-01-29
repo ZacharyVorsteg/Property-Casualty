@@ -2113,6 +2113,598 @@ export const questions = [
     correct: 1,
     explanation: 'Since MBI is regulated as insurance in Florida, agents must hold an appropriate property and casualty license to sell it.',
     lessonId: 'mbi'
+  },
+
+  // ============================================
+  // ADDITIONAL FLORIDA STATUTES - CHAPTER 626/627
+  // ============================================
+  {
+    id: 'fs050',
+    topic: 'florida-statutes',
+    question: 'Under Florida Statute 626.611, which of the following is a COMPULSORY ground for license revocation?',
+    options: [
+      'Failure to respond to an inquiry from the Department within 30 days',
+      'Misappropriating or converting insurance premiums',
+      'Being convicted of a misdemeanor not involving moral turpitude',
+      'Having 3 customer complaints in one year'
+    ],
+    correct: 1,
+    explanation: 'F.S. 626.611 lists COMPULSORY grounds for refusal, suspension, or revocation. Misappropriating, converting, or unlawfully withholding money is a compulsory ground requiring license action.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'fs051',
+    topic: 'florida-statutes',
+    question: 'Under Florida Statute 626.621, which grounds for license action are DISCRETIONARY?',
+    options: [
+      'Felony conviction',
+      'Misappropriation of funds',
+      'Demonstrated lack of fitness or trustworthiness',
+      'Fraudulent insurance acts'
+    ],
+    correct: 2,
+    explanation: 'F.S. 626.621 lists DISCRETIONARY grounds. "Demonstrated lack of fitness or trustworthiness" gives the Department discretion to take action. Compulsory grounds (626.611) REQUIRE action.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'fs052',
+    topic: 'florida-statutes',
+    question: 'How long does a licensed agent have to obtain an appointment after initial licensure in Florida?',
+    options: [
+      '24 months',
+      '36 months',
+      '48 months',
+      '60 months'
+    ],
+    correct: 2,
+    explanation: 'Under F.S. 626.371 and 626.381, a licensee has 48 months (4 years) to obtain an appointment. After 48 months without appointment, they must requalify as a first-time applicant.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'fs053',
+    topic: 'florida-statutes',
+    question: 'What is the late appointment fee in Florida if an appointment is submitted after the deadline?',
+    options: [
+      '$50',
+      '$100',
+      '$250',
+      '$500'
+    ],
+    correct: 2,
+    explanation: 'If an appointment is submitted late, the appointing entity must pay a $250 late fee in addition to the $60 statutory appointment fee.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'fs054',
+    topic: 'florida-statutes',
+    question: 'Under Florida law, how many days notice must an insurer give before canceling a binder?',
+    options: [
+      '3 days',
+      '5 days',
+      '10 days',
+      '15 days'
+    ],
+    correct: 1,
+    explanation: 'Under F.S. 627.728, an insurer must give 5 days prior notice of cancellation of a binder, unless the binder is replaced by a policy or another binder.',
+    lessonId: 'florida-statutes'
+  },
+  {
+    id: 'fs055',
+    topic: 'florida-statutes',
+    question: 'What is the purpose of F.S. Chapter 627 regarding insurance rates?',
+    options: [
+      'To maximize insurer profits',
+      'To protect policyholders against excessive, inadequate, or unfairly discriminatory rates',
+      'To set fixed rates for all insurance products',
+      'To eliminate competition among insurers'
+    ],
+    correct: 1,
+    explanation: 'Chapter 627 protects policyholders and the public against excessive, inadequate, or unfairly discriminatory insurance rates and authorizes the Office of Insurance Regulation to regulate such rates.',
+    lessonId: 'florida-statutes'
+  },
+  {
+    id: 'fs056',
+    topic: 'florida-statutes',
+    question: 'What does FIGA stand for in Florida insurance?',
+    options: [
+      'Florida Insurance Guaranty Association',
+      'Florida Insurer General Authority',
+      'Federal Insurance Governance Act',
+      'Florida Independent Guaranty Agency'
+    ],
+    correct: 0,
+    explanation: 'FIGA - Florida Insurance Guaranty Association - protects policyholders when property and casualty insurance companies become insolvent and cannot pay claims.',
+    lessonId: 'residual-markets'
+  },
+  {
+    id: 'fs057',
+    topic: 'florida-statutes',
+    question: 'Under Florida\'s No-Fault law, which coverages are REQUIRED for all vehicle owners?',
+    options: [
+      'Collision and comprehensive',
+      'PIP and property damage liability',
+      'Bodily injury liability and uninsured motorist',
+      'Medical payments and rental reimbursement'
+    ],
+    correct: 1,
+    explanation: 'Florida\'s No-Fault law requires Personal Injury Protection (PIP) and Property Damage Liability (PDL). Bodily injury liability is NOT required in Florida unless you cause an accident.',
+    lessonId: 'florida-auto'
+  },
+  {
+    id: 'fs058',
+    topic: 'florida-statutes',
+    question: 'What is the minimum PIP coverage required in Florida?',
+    options: [
+      '$5,000',
+      '$10,000',
+      '$25,000',
+      '$50,000'
+    ],
+    correct: 1,
+    explanation: 'Florida requires minimum PIP coverage of $10,000, which covers 80% of medical expenses and 60% of lost wages regardless of fault.',
+    lessonId: 'florida-auto'
+  },
+  {
+    id: 'fs059',
+    topic: 'florida-statutes',
+    question: 'What is Citizens Property Insurance Corporation?',
+    options: [
+      'A private insurance company',
+      'Florida\'s state-created insurer of last resort for property insurance',
+      'A federal insurance program',
+      'A voluntary market insurance provider'
+    ],
+    correct: 1,
+    explanation: 'Citizens Property Insurance Corporation is Florida\'s state-created, not-for-profit insurer of last resort, providing property insurance to those who cannot find coverage in the private market.',
+    lessonId: 'residual-markets'
+  },
+  {
+    id: 'al050',
+    topic: 'agent-licensing',
+    question: 'How many hours of pre-licensing education are required for a Florida 2-20 General Lines license?',
+    options: [
+      '40 hours',
+      '60 hours',
+      '200 hours',
+      '400 hours'
+    ],
+    correct: 2,
+    explanation: 'Florida requires 200 hours of coursework in property, casualty, surety, health, and marine insurance, including 3 hours of ethics education, before taking the 2-20 exam.',
+    lessonId: 'licensing-requirements'
+  },
+  {
+    id: 'al051',
+    topic: 'agent-licensing',
+    question: 'What is the passing score required for the Florida 2-20 General Lines exam?',
+    options: [
+      '60%',
+      '65%',
+      '70%',
+      '75%'
+    ],
+    correct: 2,
+    explanation: 'The Florida 2-20 General Lines exam requires a minimum passing score of 70%.',
+    lessonId: 'licensing-requirements'
+  },
+  {
+    id: 'al052',
+    topic: 'agent-licensing',
+    question: 'How many examination attempts are allowed within a one-year period in Florida?',
+    options: [
+      '3 attempts',
+      '4 attempts',
+      '5 attempts',
+      'Unlimited attempts'
+    ],
+    correct: 2,
+    explanation: 'You are limited to five examination attempts during a one-year period in Florida. After five failures, you must wait until the year passes to try again.',
+    lessonId: 'licensing-requirements'
+  },
+  {
+    id: 'al053',
+    topic: 'agent-licensing',
+    question: 'What action must an agent take within 30 days of changing their residence address?',
+    options: [
+      'Nothing, the Department will be notified automatically',
+      'Notify the Department of Financial Services in writing',
+      'Obtain a new license',
+      'Notify all appointing insurers only'
+    ],
+    correct: 1,
+    explanation: 'Florida agents must notify the Department of Financial Services in writing within 30 days of any change in residence address.',
+    lessonId: 'licensing-requirements'
+  },
+  {
+    id: 'al054',
+    topic: 'agent-licensing',
+    question: 'What is an "appointment" in Florida insurance licensing?',
+    options: [
+      'A meeting with the insurance commissioner',
+      'Authority granted by an insurer to transact insurance on its behalf',
+      'A policy application submission',
+      'A customer consultation'
+    ],
+    correct: 1,
+    explanation: 'An appointment is the authority given by an insurer or employer to a licensed agent to transact insurance or adjust claims on behalf of that company.',
+    lessonId: 'licensing-requirements'
+  },
+  {
+    id: 'al055',
+    topic: 'agent-licensing',
+    question: 'What is "rebating" in insurance?',
+    options: [
+      'Increasing premiums mid-term',
+      'Returning a portion of premium or giving something of value as an inducement to purchase',
+      'Denying a claim without investigation',
+      'Canceling a policy without notice'
+    ],
+    correct: 1,
+    explanation: 'Rebating is returning part of the premium or giving something of value as an inducement to purchase insurance. It is an illegal unfair trade practice in Florida.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'al056',
+    topic: 'agent-licensing',
+    question: 'Which is an example of "twisting" in insurance?',
+    options: [
+      'Recommending a policy replacement using misrepresentation',
+      'Writing too many policies in one day',
+      'Changing insurance companies',
+      'Filing multiple claims'
+    ],
+    correct: 0,
+    explanation: 'Twisting is inducing a policyholder to replace an existing policy through misrepresentation or incomplete comparison. It is an illegal unfair trade practice.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'tc050',
+    topic: 'terms-concepts',
+    question: 'What is the difference between "actual cash value" (ACV) and "replacement cost"?',
+    options: [
+      'ACV pays for new items; replacement cost deducts depreciation',
+      'ACV deducts depreciation; replacement cost pays to replace with new items of like kind',
+      'They are the same thing',
+      'ACV only applies to vehicles'
+    ],
+    correct: 1,
+    explanation: 'Actual Cash Value = Replacement Cost minus Depreciation. Replacement Cost pays to replace damaged property with new items of similar kind and quality without deducting for depreciation.',
+    lessonId: 'loss-valuation'
+  },
+  {
+    id: 'tc051',
+    topic: 'terms-concepts',
+    question: 'What does the 80% coinsurance clause require?',
+    options: [
+      'The insured pays 80% of all claims',
+      'The property must be insured for at least 80% of its value to avoid a penalty',
+      'The insurer pays 80% and the insured pays 20%',
+      '80% of the premium must be paid upfront'
+    ],
+    correct: 1,
+    explanation: 'The 80% coinsurance clause requires the policyholder to insure property for at least 80% of its replacement cost. If underinsured, the claim payment is reduced proportionally.',
+    lessonId: 'coinsurance'
+  },
+  {
+    id: 'tc052',
+    topic: 'terms-concepts',
+    question: 'What is "subrogation"?',
+    options: [
+      'The insurer\'s right to recover from a third party who caused the loss',
+      'A type of insurance policy',
+      'The insured\'s duty to pay premiums',
+      'A method of calculating deductibles'
+    ],
+    correct: 0,
+    explanation: 'Subrogation is the insurer\'s right to pursue recovery from a negligent third party after paying a claim. This prevents the insured from collecting twice and holds wrongdoers accountable.',
+    lessonId: 'subrogation'
+  },
+  {
+    id: 'tc053',
+    topic: 'terms-concepts',
+    question: 'What is the "elimination period" in a disability policy?',
+    options: [
+      'The period when coverage can be canceled',
+      'The waiting period before benefits begin',
+      'The time to file a claim',
+      'The policy expiration date'
+    ],
+    correct: 1,
+    explanation: 'The elimination period is the waiting period (deductible expressed in time) between when a disability begins and when benefits start. Common periods are 30, 60, 90, or 180 days.',
+    lessonId: 'policy-provisions'
+  },
+  {
+    id: 'pp050',
+    topic: 'policy-provisions',
+    question: 'What are the four essential elements of a valid insurance contract?',
+    options: [
+      'Premium, policy, insurer, insured',
+      'Offer, acceptance, consideration, legal purpose',
+      'Application, underwriting, binding, issuing',
+      'Declarations, conditions, exclusions, endorsements'
+    ],
+    correct: 1,
+    explanation: 'A valid insurance contract requires: 1) Offer and acceptance, 2) Consideration (premium exchange), 3) Competent parties, and 4) Legal purpose. These are standard contract law requirements.',
+    lessonId: 'contract-law'
+  },
+  {
+    id: 'pp051',
+    topic: 'policy-provisions',
+    question: 'What is an "aleatory contract"?',
+    options: [
+      'A contract where both parties exchange equal value',
+      'A contract where one party may receive more value than given',
+      'A contract that can be canceled anytime',
+      'A contract requiring arbitration'
+    ],
+    correct: 1,
+    explanation: 'Insurance contracts are aleatory - the amount exchanged may be unequal. The insured may pay premiums for years without a claim, or receive a large payout after one premium payment.',
+    lessonId: 'contract-law'
+  },
+  {
+    id: 'pp052',
+    topic: 'policy-provisions',
+    question: 'What does "utmost good faith" (uberrimae fidei) require?',
+    options: [
+      'Only the insurer must be honest',
+      'Both parties must disclose all material facts honestly',
+      'The agent must always recommend the cheapest policy',
+      'Claims must be paid within 24 hours'
+    ],
+    correct: 1,
+    explanation: 'Insurance contracts are contracts of utmost good faith - both the applicant and insurer must be completely honest and disclose all material facts. Concealment or misrepresentation can void coverage.',
+    lessonId: 'contract-law'
+  },
+  {
+    id: 'pp053',
+    topic: 'policy-provisions',
+    question: 'What is a "material misrepresentation"?',
+    options: [
+      'Any false statement on an application',
+      'A false statement that would affect the insurer\'s decision to issue coverage or set premium',
+      'Forgetting your middle name',
+      'A typo in the address'
+    ],
+    correct: 1,
+    explanation: 'A material misrepresentation is a false statement about a fact that would have influenced the insurer\'s decision to issue the policy, decline coverage, or charge a different premium.',
+    lessonId: 'contract-law'
+  },
+  {
+    id: 'pp054',
+    topic: 'policy-provisions',
+    question: 'What is the "duties after loss" provision?',
+    options: [
+      'The insurer\'s obligation to pay claims',
+      'The insured\'s obligations to protect property, notify insurer, and cooperate',
+      'The agent\'s requirement to file paperwork',
+      'The underwriter\'s review process'
+    ],
+    correct: 1,
+    explanation: 'Duties after loss require the insured to: give prompt notice, protect property from further damage, cooperate with investigation, provide documentation, and submit to examination under oath.',
+    lessonId: 'policy-provisions'
+  },
+  {
+    id: 'cp050',
+    topic: 'casualty-policies',
+    question: 'What does CGL stand for?',
+    options: [
+      'Commercial Guaranteed Liability',
+      'Commercial General Liability',
+      'Comprehensive General Loss',
+      'Casualty General Limits'
+    ],
+    correct: 1,
+    explanation: 'CGL stands for Commercial General Liability - the foundational liability policy for businesses covering bodily injury, property damage, personal injury, and advertising injury.',
+    lessonId: 'cgl'
+  },
+  {
+    id: 'cp051',
+    topic: 'casualty-policies',
+    question: 'What type of coverage does "products-completed operations" provide under CGL?',
+    options: [
+      'Coverage for theft of products',
+      'Coverage for injury/damage caused by products after sale or work after completion',
+      'Coverage for product recalls',
+      'Coverage for manufacturing defects only'
+    ],
+    correct: 1,
+    explanation: 'Products-completed operations coverage protects against liability for bodily injury or property damage caused by products after they leave your control or by completed work after you finish the job.',
+    lessonId: 'cgl'
+  },
+  {
+    id: 'cp052',
+    topic: 'casualty-policies',
+    question: 'What is the difference between "occurrence" and "claims-made" policies?',
+    options: [
+      'They are the same',
+      'Occurrence covers claims when injury happens; claims-made covers claims when reported',
+      'Occurrence is for property; claims-made is for liability',
+      'Occurrence requires higher premiums'
+    ],
+    correct: 1,
+    explanation: 'Occurrence policies cover injury/damage that OCCURS during the policy period, regardless of when claimed. Claims-made policies cover claims REPORTED during the policy period, regardless of when injury occurred.',
+    lessonId: 'cgl'
+  },
+  {
+    id: 'cp053',
+    topic: 'casualty-policies',
+    question: 'What is "umbrella liability" insurance?',
+    options: [
+      'Coverage for rain damage',
+      'Excess liability coverage that sits above underlying policies',
+      'Basic liability coverage',
+      'Workers compensation insurance'
+    ],
+    correct: 1,
+    explanation: 'Umbrella liability provides excess coverage above the limits of underlying policies (auto, homeowners, CGL). It also may cover some claims excluded by underlying policies.',
+    lessonId: 'umbrella'
+  },
+  {
+    id: 'mv050',
+    topic: 'motor-vehicle',
+    question: 'Under the Personal Auto Policy (PAP), what does Part A cover?',
+    options: [
+      'Collision damage',
+      'Liability coverage',
+      'Medical payments',
+      'Uninsured motorist'
+    ],
+    correct: 1,
+    explanation: 'PAP Part A is Liability Coverage - it pays for bodily injury and property damage the insured causes to others. This is typically the largest exposure for auto insurance.',
+    lessonId: 'pap'
+  },
+  {
+    id: 'mv051',
+    topic: 'motor-vehicle',
+    question: 'What is the difference between collision and comprehensive coverage?',
+    options: [
+      'They cover the same perils',
+      'Collision covers accidents with objects; comprehensive covers theft, weather, vandalism',
+      'Comprehensive covers collisions only',
+      'Collision covers theft'
+    ],
+    correct: 1,
+    explanation: 'Collision covers damage from hitting another vehicle or object. Comprehensive (other than collision) covers theft, vandalism, weather damage, fire, flood, hitting an animal, and falling objects.',
+    lessonId: 'physical-damage'
+  },
+  {
+    id: 'mv052',
+    topic: 'motor-vehicle',
+    question: 'What is "uninsured motorist" (UM) coverage?',
+    options: [
+      'Coverage if you don\'t have insurance',
+      'Coverage that pays if you\'re injured by a driver who has no insurance',
+      'Coverage for rental cars',
+      'Coverage for commercial vehicles'
+    ],
+    correct: 1,
+    explanation: 'Uninsured Motorist coverage pays for your injuries if you\'re hit by a driver who has no liability insurance or in a hit-and-run situation.',
+    lessonId: 'um-uim'
+  },
+  {
+    id: 'mv053',
+    topic: 'motor-vehicle',
+    question: 'What is "underinsured motorist" (UIM) coverage?',
+    options: [
+      'Coverage if your insurance limits are too low',
+      'Coverage when the at-fault driver\'s insurance is insufficient to cover your damages',
+      'Coverage for underage drivers',
+      'Coverage for financed vehicles'
+    ],
+    correct: 1,
+    explanation: 'Underinsured Motorist coverage pays the difference when the at-fault driver has insurance but their limits are not enough to cover all your damages.',
+    lessonId: 'um-uim'
+  },
+  {
+    id: 'rm050',
+    topic: 'residual-markets',
+    question: 'What is the Florida Automobile Joint Underwriting Association (FAJUA)?',
+    options: [
+      'A private insurance company',
+      'A residual market mechanism for drivers who cannot obtain auto insurance in voluntary market',
+      'A federal auto insurance program',
+      'An agent licensing organization'
+    ],
+    correct: 1,
+    explanation: 'FAJUA is Florida\'s residual market for auto insurance, providing coverage to drivers who cannot find insurance in the voluntary market due to high risk.',
+    lessonId: 'residual-markets'
+  },
+  {
+    id: 'rm051',
+    topic: 'residual-markets',
+    question: 'What is the Florida Workers Compensation Joint Underwriting Association (FWCJUA)?',
+    options: [
+      'A private workers comp insurer',
+      'The residual market for employers who cannot obtain workers comp in the voluntary market',
+      'A union organization',
+      'A federal workers comp program'
+    ],
+    correct: 1,
+    explanation: 'FWCJUA provides workers compensation insurance to Florida employers who cannot find coverage in the voluntary market. It ensures all employers can meet their workers comp requirements.',
+    lessonId: 'residual-markets'
+  },
+  {
+    id: 'fs060',
+    topic: 'florida-statutes',
+    question: 'What is the statutory appointment fee in Florida?',
+    options: [
+      '$40',
+      '$50',
+      '$60',
+      '$75'
+    ],
+    correct: 2,
+    explanation: 'The statutory appointment fee in Florida is $60. If submitted late, an additional $250 late fee applies.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'fs061',
+    topic: 'florida-statutes',
+    question: 'Under F.S. 626.611, conviction of a felony is what type of ground for license action?',
+    options: [
+      'Discretionary',
+      'Compulsory',
+      'Not grounds for action',
+      'Only if insurance-related'
+    ],
+    correct: 1,
+    explanation: 'Conviction of a felony is a COMPULSORY ground under 626.611. The Department MUST refuse, suspend, or revoke the license - there is no discretion.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'fs062',
+    topic: 'florida-statutes',
+    question: 'How much continuing education must a licensed agent complete each renewal period?',
+    options: [
+      '12 hours',
+      '20 hours',
+      '24 hours',
+      '40 hours'
+    ],
+    correct: 2,
+    explanation: 'Florida agents must complete 24 hours of continuing education each 2-year license renewal period, including required ethics and update hours.',
+    lessonId: 'florida-licensing'
+  },
+  {
+    id: 'tc054',
+    topic: 'terms-concepts',
+    question: 'What is "adverse selection"?',
+    options: [
+      'When insurers select only good risks',
+      'The tendency of high-risk individuals to seek more insurance',
+      'When agents select adverse clients',
+      'A method of policy cancellation'
+    ],
+    correct: 1,
+    explanation: 'Adverse selection is the tendency of people with higher-than-average risk to buy more insurance. This is why underwriting is important - to identify and properly price risks.',
+    lessonId: 'underwriting'
+  },
+  {
+    id: 'tc055',
+    topic: 'terms-concepts',
+    question: 'What is "moral hazard"?',
+    options: [
+      'The risk of fire damage',
+      'Increased risk due to character defects like dishonesty or carelessness',
+      'The risk of natural disasters',
+      'A type of deductible'
+    ],
+    correct: 1,
+    explanation: 'Moral hazard is increased risk arising from character defects or past dishonest behavior of the insured that may increase the likelihood of a loss or fraudulent claim.',
+    lessonId: 'underwriting'
+  },
+  {
+    id: 'tc056',
+    topic: 'terms-concepts',
+    question: 'What is "morale hazard"?',
+    options: [
+      'Intentional destruction of property',
+      'Carelessness or indifference to loss because insurance exists',
+      'Emotional distress claims',
+      'Employee theft'
+    ],
+    correct: 1,
+    explanation: 'Morale hazard is carelessness or indifference about protecting property because the person knows insurance will pay. Unlike moral hazard, there\'s no intent to cause a loss.',
+    lessonId: 'underwriting'
   }
 ];
 

@@ -7,7 +7,7 @@ function PracticeExam({ onBack, onComplete }) {
   const [examQuestions, setExamQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
-  const [timeRemaining, setTimeRemaining] = useState(120 * 60); // 2 hours in seconds
+  const [timeRemaining, setTimeRemaining] = useState(180 * 60); // 3 hours in seconds
   const [showConfirm, setShowConfirm] = useState(false);
   const timerRef = useRef(null);
 
@@ -31,7 +31,7 @@ function PracticeExam({ onBack, onComplete }) {
   }, [started]);
 
   const startExam = () => {
-    const questions = getExamQuestions(100);
+    const questions = getExamQuestions(160);
     setExamQuestions(questions);
     setStarted(true);
   };
@@ -73,7 +73,7 @@ function PracticeExam({ onBack, onComplete }) {
       breakdown,
       answers,
       questions: examQuestions,
-      timeUsed: (120 * 60) - timeRemaining
+      timeUsed: (180 * 60) - timeRemaining
     };
 
     recordExamResult(results);
@@ -100,18 +100,18 @@ function PracticeExam({ onBack, onComplete }) {
       <div className="exam-intro card">
         <h2>Practice Exam</h2>
         <p>
-          Simulate the real Florida Property & Casualty exam experience.
-          You'll have 2 hours to complete 100 questions.
+          Simulate the real Florida 2-20 General Lines exam experience.
+          You'll have 3 hours to complete 160 questions.
         </p>
 
         <div className="exam-details">
           <div className="exam-detail">
             <span>Questions</span>
-            <span>100</span>
+            <span>160</span>
           </div>
           <div className="exam-detail">
             <span>Time Limit</span>
-            <span>2 hours</span>
+            <span>3 hours</span>
           </div>
           <div className="exam-detail">
             <span>Passing Score</span>
