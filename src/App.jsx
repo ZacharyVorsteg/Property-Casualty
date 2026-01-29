@@ -6,6 +6,7 @@ import Lesson from './components/Lesson';
 import Progress from './components/Progress';
 import PracticeExam from './components/PracticeExam';
 import Results from './components/Results';
+import StudyGuide from './components/StudyGuide';
 import { getProgress } from './utils/storage';
 import { TOPICS } from './data/questions';
 
@@ -58,13 +59,19 @@ function App() {
             className={`nav-btn ${view === 'dashboard' ? 'active' : ''}`}
             onClick={handleBackToDashboard}
           >
-            Study Topics
+            Topics
+          </button>
+          <button
+            className={`nav-btn ${view === 'guide' ? 'active' : ''}`}
+            onClick={() => setView('guide')}
+          >
+            Study Guide
           </button>
           <button
             className={`nav-btn ${view === 'exam' ? 'active' : ''}`}
             onClick={() => setView('exam')}
           >
-            Practice Exam
+            Exam
           </button>
           <button
             className={`nav-btn ${view === 'progress' ? 'active' : ''}`}
@@ -124,6 +131,13 @@ function App() {
           <Progress
             progress={progress}
             onTopicSelect={handleTopicSelect}
+          />
+        );
+      case 'guide':
+        return (
+          <StudyGuide
+            onTopicSelect={handleTopicSelect}
+            onStartExam={() => setView('exam')}
           />
         );
       default:
